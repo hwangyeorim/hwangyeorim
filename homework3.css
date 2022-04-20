@@ -1,0 +1,45 @@
+#home {
+    border: 6px solid rgb(41, 41, 41);
+    margin: 0 auto;
+    width: 1200px;
+    height: 1600px;
+}
+div {
+    border: 2px solid rgb(41, 41, 41);
+    margin: 23px;
+    padding: 0x;
+}    
+#title {
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+#title h1{
+    position: relative;
+    font-size: 50px;
+    padding-left: 70px;
+    bottom: 15px;
+    letter-spacing: 30px;
+}
+#content {
+    float: left;
+    width: 1150px;
+    height: 450px;
+    margin-bottom: 30px;
+    background-image: url("calming.png");
+    background-repeat: repeat-x;
+    background-size: 900px;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+}
+#column {
+    float: left;
+    width: 40%;
+    padding: 35px;
+    height: 260px;
+}
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
